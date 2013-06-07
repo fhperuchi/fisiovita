@@ -13,6 +13,7 @@
         <appengine.target.version>1.8.0</appengine.target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.springframework.version>3.2.3.RELEASE</org.springframework.version>
+        <workspace_loc>$${workspace_loc:/</workspace_loc>
     </properties>
 
     <dependencies>
@@ -79,8 +80,78 @@
                     </additionalProjectnatures>
                     <classpathContainers combine.children="append">
                         <!-- Adiciona no classpath as bibliotecas do plugin do GAE. -->
-                        <classpathContainer>com.google.appengine.eclipse.core.GAE_CONTAINER</classpathContainer>
+                        <classpathContainer>
+                            com.google.appengine.eclipse.core.GAE_CONTAINER</classpathContainer>
                     </classpathContainers>
+                    <additionalConfig combine.children="append">
+                        <!-- Arquivo de configuração do plugin do GAE indicando onde fica o 
+                            WAR do projeto. -->
+                        <file>
+                            <name>
+                                .settings/com.google.gdt.eclipse.core.prefs</name>
+                            <content><![CDATA[
+                                    eclipse.preferences.version=1
+                                    jarsExcludedFromWebInfLib=
+                                    warSrcDir=target/${project.artifactId}-${project.version}
+                                    warSrcDirIsOutput=true
+                             ]]></content>
+                        </file>
+                        <!-- Arquivo de configuração para o hotdeploy de conteúdo WEB. Reparar 
+                            que é necessário que a propriedade ${workspace_loc} tenha o valor '${workspace_loc:/'. 
+                            Isto é necessário por causa da maneira diferente que maven 2 e 3 fazem o 
+                            parsing da propriedade. -->
+                        <file>
+                            <name>
+                                .externalToolBuilders\webapp-hotdeploy.launch</name>
+                            <content><![CDATA[
+                                    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                    <launchConfiguration type="org.eclipse.ant.AntBuilderLaunchConfigurationType">
+                                    <booleanAttribute key="org.eclipse.ant.ui.ATTR_TARGETS_UPDATED" value="true" />
+                                    <booleanAttribute key="org.eclipse.ant.ui.DEFAULT_VM_INSTALL" value="false" />
+                                    <booleanAttribute key="org.eclipse.debug.core.capture_output" value="false" />
+                                    <booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false" />
+                                    <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false" />
+                                    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.ant.ui.AntClasspathProvider" />
+                                    <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="true" />
+                                    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="${project.artifactId}" />
+                                    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc}${project.artifactId}/.externalToolBuilders/webapp-hotdeploy.xml}" />
+                                    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,auto," />
+                                    <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true" />
+                                    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc}${project.artifactId}/src/main}" />
+                                    </launchConfiguration>
+                            ]]></content>
+                        </file>
+                        <!-- Script Ant que copia o conteúdo WEB da pasta 'webapp' para o target, 
+                            para realizar o hotdeploy. São copiados apenas os arquivos mais novos. -->
+                        <file>
+                            <name>
+                                .externalToolBuilders\webapp-hotdeploy.xml</name>
+                            <content><![CDATA[
+                                    <?xml version="1.0"?>
+                                    <project default="copyWebapp" basedir="..">
+                                    <target name="copyWebapp">
+                                    <copy todir="../../target/${project.artifactId}-${project.version}">
+                                    <fileset dir="webapp" />
+                                    </copy>
+                                    </target>
+                                    </project>
+                            ]]></content>
+                        </file>
+                    </additionalConfig>
+                    <additionalBuildcommands combine.children="append">
+                        <!-- Adiciona a copia do conteúdo WEB (hotdeploy) como uma build do 
+                            projeto. Ele rodará sempre que for salvo um arquivo, desde que a build automática 
+                            esteja ativada. -->
+                        <buildCommand>
+                            <name>
+                                org.eclipse.ui.externaltools.ExternalToolBuilder</name>
+                            <triggers>full,incremental,auto,</triggers>
+                            <arguments>
+                                <LaunchConfigHandle>
+                                    &lt;project&gt;/.externalToolBuilders/webapp-hotdeploy.launch</LaunchConfigHandle>
+                            </arguments>
+                        </buildCommand>
+                    </additionalBuildcommands>
                     <!-- Exclui do classpath do eclipse a SDK que o maven usa para a compilação 
                         e empacotamento. Está entrada no classpath que causa o uso da SDK errada 
                         no Eclipse após rodar um 'mvn eclipse:eclipse' -->

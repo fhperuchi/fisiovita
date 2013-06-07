@@ -45,24 +45,24 @@ public final class MailUtil {
 			String interesse = campoInteresse[0];
 			String emailFisioVita = campoInteresse[1];
 
-			Message message = new MimeMessage(Session.getDefaultInstance(new Properties()));
-			message.setFrom(new InternetAddress(
+			Message messageFisioVita = new MimeMessage(Session.getDefaultInstance(new Properties()));
+			messageFisioVita.setFrom(new InternetAddress(
 					messageSource.getMessage("mail.email.remetente", null, Constantes.LOCALE_PTBR), 
 					messageSource.getMessage("mail.nome.remetente", null, Constantes.LOCALE_PTBR)));
 
 			InternetAddress[] replyTo = { new InternetAddress(contato.getEmail(), contato.getNome()) };
 
-			message.setReplyTo(replyTo);
+			messageFisioVita.setReplyTo(replyTo);
 			
 			if (emailFisioVita.indexOf(",") < 0) {
-				message.addRecipient(Message.RecipientType.TO, new InternetAddress(emailFisioVita));
+				messageFisioVita.addRecipient(Message.RecipientType.TO, new InternetAddress(emailFisioVita));
 			} else {
 				String[] emails = emailFisioVita.split(",");
 				for (String email : emails) {
-					message.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
+					messageFisioVita.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
 				}
 			}
-			message.setSubject(MimeUtility.encodeText(messageSource.getMessage("mail.contato.assunto", null, Constantes.LOCALE_PTBR),
+			messageFisioVita.setSubject(MimeUtility.encodeText(messageSource.getMessage("mail.contato.assunto", null, Constantes.LOCALE_PTBR),
 					Constantes.UTF_8, "B"));
 			Multipart multiPart = new MimeMultipart();
 
@@ -71,9 +71,9 @@ public final class MailUtil {
 			mimeBodyPart.setContent(messageSource.getMessage("mail.contato.corpo", args, Constantes.LOCALE_PTBR), "text/html");
 			multiPart.addBodyPart(mimeBodyPart);
 
-			message.setContent(multiPart);
+			messageFisioVita.setContent(multiPart);
 
-			Transport.send(message);
+			Transport.send(messageFisioVita);
 			return "SUCCESS";
 		} catch (Exception e) {
 			LOGGER.severe("Erro ao enviar email: " + e.getMessage());

@@ -21,7 +21,7 @@
 			  <label>Interesse</label> 
 			  <select id="interesse" name="interesse" class="span2">
 			  	<option value="Fisioterapia;carinaballoni@terra.com.br">Fisioterapia</option>
-			  	<option value="Pilates;fhperuchi@ciandt.com">Pilates</option>
+			  	<option value="Pilates;daysardenha@bol.com.br,fhperuchi@ciandt.com">Pilates</option>
 			  	<option value="Est&eacute;tica;carinaballoni@terra.com.br">Est&eacute;tica</option>
 			  	<option value="RPG;renatanogueron@yahoo.com.br">RPG</option>
 			  	<option value="Outro;daysardenha@bol.com.br,carinaballoni@terra.com.br,renatanogueron@yahoo.com.br">Outro</option>
