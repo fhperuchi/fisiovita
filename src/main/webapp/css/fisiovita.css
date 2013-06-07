@@ -1,0 +1,36 @@
+.logo {	
+	display: block;
+	float: left;
+}
+
+.slogan {	
+	display: block;
+	background: white;
+	float: left;
+	padding-top: 40px;
+}
+
+.roxo_claro {
+	background: #CCCCFF
+}
+
+.row h2 {
+	padding-left: 15px;
+}
+
+#cabecalho {
+	color: #7f1d6f;
+}
+
+.roxo_titulo {
+	color: #7f1d6f;
+	font-weight: bold;
+}
+
+.roxo {
+	color: #7f1d6f;
+}
+
+a {
+	color: #7f1d6f;
+}
