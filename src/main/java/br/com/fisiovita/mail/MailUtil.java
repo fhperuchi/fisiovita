@@ -50,10 +50,6 @@ public final class MailUtil {
 					messageSource.getMessage("mail.email.remetente", null, Constantes.LOCALE_PTBR), 
 					messageSource.getMessage("mail.nome.remetente", null, Constantes.LOCALE_PTBR)));
 
-			InternetAddress[] replyTo = { new InternetAddress(contato.getEmail(), contato.getNome()) };
-
-			messageFisioVita.setReplyTo(replyTo);
-			
 			if (emailFisioVita.indexOf(",") < 0) {
 				messageFisioVita.addRecipient(Message.RecipientType.TO, new InternetAddress(emailFisioVita));
 			} else {
@@ -62,6 +58,11 @@ public final class MailUtil {
 					messageFisioVita.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
 				}
 			}
+
+			InternetAddress[] replyTo = { new InternetAddress(contato.getEmail(), contato.getNome()) };
+
+			messageFisioVita.setReplyTo(replyTo);
+			
 			messageFisioVita.setSubject(MimeUtility.encodeText(messageSource.getMessage("mail.contato.assunto", null, Constantes.LOCALE_PTBR),
 					Constantes.UTF_8, "B"));
 			Multipart multiPart = new MimeMultipart();

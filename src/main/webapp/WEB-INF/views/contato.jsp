@@ -14,17 +14,16 @@
 			  Rua Jo&atilde;o Jacon, 168 - Jardim Santa Cec&iacute;lia - 13480-685<br>
 			  Limeira / S&atilde;o Paulo
 			</address>
-<!-- 			<hr> -->
         	<h4 class="roxo">Entre em contato por e-mail</h4>
-			<form id="formContato" name="formContato" class="navbar-form pull-left" style="width: 700px">
+			<form id="formContato" name="formContato" method="post" class="navbar-form pull-left" style="width: 700px">
 			  <p>
 			  <label>Interesse</label> 
 			  <select id="interesse" name="interesse" class="span2">
 			  	<option value="Fisioterapia;carinaballoni@terra.com.br">Fisioterapia</option>
-			  	<option value="Pilates;daysardenha@bol.com.br,fhperuchi@ciandt.com">Pilates</option>
 			  	<option value="Est&eacute;tica;carinaballoni@terra.com.br">Est&eacute;tica</option>
+			  	<option value="Pilates;fhperuchi@ciandt.com,fhperuchi@gmail.com">Pilates</option>
 			  	<option value="RPG;renatanogueron@yahoo.com.br">RPG</option>
-			  	<option value="Outro;daysardenha@bol.com.br,carinaballoni@terra.com.br,renatanogueron@yahoo.com.br">Outro</option>
+			  	<option value="Outro;daysardenha@bol.com.br,carinaballoni@terra.com.br,renatanogueron@yahoo.com.br,fhperuchi@gmail.com">Outro</option>
 			  </select>
 			  </p>
 			  <p><input id="nome" name="nome" type="text" required class="span4" placeholder="Nome completo"></p>
@@ -46,13 +45,14 @@
 <jsp:include page="rodape.jsp" />
 
 <script type="text/javascript">
-   
    $("#contato").addClass("active");
+   
+   $("#telefone").mask("(99) 9999-9999");
    
    $("#btnEnviar").click(function() {
 		$.post("/enviarEmail", $("#formContato").serialize()).done(
 			function(data) {
-				alert("O e-mail foi enviado com sucesso! Em breve entraremos em contato.");
+				alert(data);
 			}
 		).fail(
 			function() { 

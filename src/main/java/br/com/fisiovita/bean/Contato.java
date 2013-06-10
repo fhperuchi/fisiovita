@@ -1,16 +1,23 @@
 package br.com.fisiovita.bean;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
+import org.springframework.validation.annotation.Validated;
+
+@Validated
 public class Contato implements Serializable {
 
-	private static final long serialVersionUID = -5145203336718500912L;
+	private static final long serialVersionUID = 1;
 	
 	private String nome;
 	private String interesse;
 	private String email;
 	private String telefone;
 	private String mensagem;
+	
+	private List<String> erros = new ArrayList<String>();
 	
 	public String getNome() {
 		return nome;
@@ -41,5 +48,16 @@ public class Contato implements Serializable {
 	}
 	public void setInteresse(String interesse) {
 		this.interesse = interesse;
+	}
+	public List<String> getErros() {
+		return erros;
+	}
+	public void setErros(List<String> erros) {
+		this.erros = erros;
+	}
+	@Override
+	public String toString() {
+		return "Contato [nome=" + nome + ", interesse=" + interesse + ", email=" + email + ", telefone=" + telefone + ", mensagem=" + mensagem
+				+ ", erros=" + erros + "]";
 	}
 }
