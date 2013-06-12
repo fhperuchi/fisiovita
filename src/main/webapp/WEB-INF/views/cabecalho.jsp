@@ -88,6 +88,6 @@
            
         </div>
         <div class="slogan">
-          <h2>Uma nova forma de sentir a vida!</h2>
+          <h2>Mais beleza e sa&uacute;de em sua vida!</h2>
         </div>
       </div>
