@@ -37,29 +37,9 @@
           </div>     
         </div>
         <div class="span6">
-			<p>A Reeduca&ccedil;&atilde;o Postural Global (RPG) &eacute; um m&eacute;todo fisioterapeutico revolucion&aacute;rio, nascido da obra O Campo Fechado, publicado por PH. Souchard em 1981, na Fran&ccedil;a ap&oacute;s 15 anos de pesquisa no dom&iacute;nio da biomec&acirc;nica.</p>
-			<p>
-				&Eacute; um m&eacute;todo terap&ecirc;utico manual que se aplica a todas as patologias que requerem fisioterapia: 
-				<ul>
-					<li>Problemas morfol&oacute;gicos</li> 
-					<li>Problemas posturais</li>
-					<li>Les&otilde;es Articulares</li> 
-					<li>Patologias Reum&aacute;ticas</li>
-					<li>Seq&uuml;elas Neurol&oacute;gicas Espasticas</li> 
-					<li>Problemas Traum&aacute;ticos</li>
-					<li>Doen&ccedil;as Respirat&oacute;rias</li>
-				</ul>
-			</p>
-			<p>A RPG baseia-se em tr&ecirc;s princ&iacute;pios fundamentais:
-				<ul>
-					<li>Individualidade: Cada ser humano &eacute; &uacute;nico e reage de forma diferente;</li> 
-					<li>Casualidade: A verdadeira causa do problema pode estar distante do sintoma (causa/conseq&uuml;&ecirc;ncia);</li>
-					<li>Globalidade: Deve-se tratar o corpo como um todo, buscando identificar as responsabilidades das retra&ccedil;&otilde;es musculares nas patologias m&uacute;sculo-esquel&eacute;ticas.</li>
-				</ul>
-			</p>
-			<p>Um dos diferenciais da RPG &eacute; a revaloriza&ccedil;&atilde;o da fun&ccedil;&atilde;o est&aacute;tica dos m&uacute;sculos. Solicitados em perman&ecirc;ncia, estes podem encurtar-se e perder sua flexibilidade, freando os movimentos e deformando o corpo. Assim, um dos princ&iacute;pios do m&eacute;todo &eacute; identificar e alongar os m&uacute;sculos respons&aacute;veis pela altera&ccedil;&atilde;o postural.</p>
-			<p>Atualmente a RPG &eacute; ministrado aos fisioterapeutas por Phillipe E. Souchard e sua equipe em 15 Pa&iacute;ses incluindo o Brasil, onde na cidade de S&atilde;o Paulo criou o Instituto Philippe Souchard em 1999. J&aacute; formou mais de 25.000 fisioterapeutas em v&aacute;rias partes do mundo. Por sua efic&aacute;cia e abrang&ecirc;ncia vem ganhando notabilidade no meio cientifico o que colabora para sua consolida&ccedil;&atilde;o.</p>
-			<p>Os tratamentos s&atilde;o individuais e duram cerca de 1 hora, podendo ser praticados para preven&ccedil;&atilde;o e manuten&ccedil;&atilde;o atrav&eacute;s das Auto Posturas.</p>
+			<p>A postura &eacute; a forma que o nosso corpo assume e se sustenta no espa&ccedil;o e est&aacute; condicionada &agrave;s atividades de vida di&aacute;ria, aos h&aacute;bitos, aos fatores gen&eacute;ticos herdados dos pais e aos fatores emocionais e ps&iacute;quicos de cada indiv&iacute;duo.</p>
+			<p>Os problemas posturais que se desenvolvem ao longo da vida tem sua origem no encurtamento e na rigidez do sistema musculotend&iacute;neo, sendo que grande parte dos nossos m&uacute;sculos permanecem em contra&ccedil;&atilde;o cont&iacute;nua para sustentar a postura ereta e outros ficam mais relaxados e fl&aacute;cidos por serem pouco utilizados. Essa descompensa&ccedil;&atilde;o pode provocar desorganiza&ccedil;&atilde;o postural, al&eacute;m de les&otilde;es pelo nosso corpo. A Reeduca&ccedil;&atilde;o Postural Global (RPG) promove o alongamento e a libera&ccedil;&atilde;o das cadeias musculares e, consequentemente, das articula&ccedil;&otilde;es, melhorando o alinhamento postural e levando ao desaparecimento dos sintomas.</p>
+			<p>Desta forma, a RPG &eacute; uma t&eacute;cnica fisioterap&ecirc;utica eficaz no tratamento e corre&ccedil;&atilde;o de altera&ccedil;&otilde;es posturais, recupera&ccedil;&atilde;o da flexibilidade muscular, elimina&ccedil;&atilde;o da dor e restabelecimento da fun&ccedil;&atilde;o. O m&eacute;todo trata o paciente como um todo, por meio de alongamentos musculares ativos e progressivos, associados com a respira&ccedil;&atilde;o, em atendimentos individuais que duram cerca de uma hora. O m&eacute;todo baseia-se em tr&ecirc;s princ&iacute;pios b&aacute;sicos: individualidade (as pessoas n&atilde;o s&atilde;o iguais), causalidade (busca as causas do sintoma) e globalidade (trata o doente e n&atilde;o a doen&ccedil;a).</p>
         </div>
       </div>
 
