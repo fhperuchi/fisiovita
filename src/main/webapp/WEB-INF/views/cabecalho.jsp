@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-  	<meta name="google-site-verification" content="hFZdLHdzKaq6wKeEy2gEAVy1gQZOdPKrmzwZp-tW_cE" />
+  	<meta name="google-site-verification" content="vI3j2kGSIYQwP6ple-6DhE9BQa2ui9P1wid6AF8pZlY" />
     <meta charset="utf-8">
     
     <title>Spazio Fisio Vita</title>

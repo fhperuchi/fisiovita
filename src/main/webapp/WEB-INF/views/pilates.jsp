@@ -15,21 +15,27 @@
             <div class="carousel-inner">
               <div class="item active">
                 <img src="img/pilates.jpg" class="img-rounded">
-                <div class="carousel-caption">
+                <!-- <div class="carousel-caption">
                   <p>Pilates</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
-                <img src="img/pilates.jpg" class="img-rounded">
-                <div class="carousel-caption">
+                <img src="img/pilates2.jpg" class="img-rounded">
+                <!-- <div class="carousel-caption">
                   <p>Pilates</p>
-                </div>
+                </div> -->
               </div>
               <div class="item">
-                <img src="img/pilates.jpg" class="img-rounded">
-                <div class="carousel-caption">
+                <img src="img/pilates3.jpg" class="img-rounded">
+                <!-- <div class="carousel-caption">
                   <p>Pilates</p>
-                </div>
+                </div> -->
+              </div>
+              <div class="item">
+                <img src="img/pilates4.jpg" class="img-rounded">
+                <!-- <div class="carousel-caption">
+                  <p>Pilates</p>
+                </div> -->
               </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
