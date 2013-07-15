@@ -21,3 +21,7 @@
      </div>
 
 <jsp:include page="rodape.jsp" />
+
+<script type="text/javascript">
+   $("#localizacao").addClass("active");
+ </script>
