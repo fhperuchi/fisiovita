@@ -20,13 +20,19 @@
                 </div> -->
               </div>
               <div class="item">
-                <img src="img/fisioterapia.jpg" class="img-rounded">
+                <img src="img/fisioterapia2.jpg" class="img-rounded">
                 <!-- <div class="carousel-caption">
                   <p>Fisioterapia</p>
                 </div> -->
               </div>
               <div class="item">
-                <img src="img/fisioterapia.jpg" class="img-rounded">
+                <img src="img/fisioterapia3.jpg" class="img-rounded">
+                <!-- <div class="carousel-caption">
+                  <p>Fisioterapia</p>
+                </div> -->
+              </div>
+              <div class="item">
+                <img src="img/fisioterapia4.jpg" class="img-rounded">
                 <!-- <div class="carousel-caption">
                   <p>Fisioterapia</p>
                 </div> -->
