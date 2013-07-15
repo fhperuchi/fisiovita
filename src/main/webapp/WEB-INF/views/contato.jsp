@@ -9,11 +9,11 @@
 			<img src="img/contato.jpg" class="img-rounded">
         </div>
         <div class="span6">
-        	<address>
-			  <h4 class="roxo">Endere&ccedil;o</h4>
-			  Rua Jo&atilde;o Jacon, 168 - Jardim Santa Cec&iacute;lia - 13480-685<br>
-			  Limeira / S&atilde;o Paulo
-			</address>
+<!--         	<address> -->
+<!-- 			  <h4 class="roxo">Endere&ccedil;o</h4> -->
+<!-- 			  Rua Jo&atilde;o Jacon, 168 - Jardim Santa Cec&iacute;lia - 13480-685<br> -->
+<!-- 			  Limeira / S&atilde;o Paulo -->
+<!-- 			</address> -->
         	<h4 class="roxo">Entre em contato por e-mail</h4>
 			<form id="formContato" name="formContato" method="post" class="navbar-form pull-left" style="width: 700px">
 			  <p>

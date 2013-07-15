@@ -73,6 +73,7 @@
               <li id="estetica"><a href="/estetica">Est&eacute;tica</a></li>
               <li id="pilates"><a href="/pilates">Pilates</a></li>
               <li id="rpg"><a href="/rpg">RPG</a></li>
+              <li id="contato"><a href="/localizacao">Localiza&ccedil;&atilde;o</a></li>
               <li id="contato"><a href="/contato">Contato</a></li>
             </ul>
             
