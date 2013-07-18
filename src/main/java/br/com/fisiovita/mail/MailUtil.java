@@ -15,7 +15,7 @@ import javax.mail.internet.MimeUtility;
 
 import org.springframework.context.MessageSource;
 
-import br.com.fisiovita.bean.Contato;
+import br.com.fisiovita.model.Contato;
 import br.com.fisiovita.util.Constantes;
 
 public final class MailUtil {

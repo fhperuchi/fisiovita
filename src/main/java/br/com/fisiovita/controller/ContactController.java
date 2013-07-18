@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import br.com.fisiovita.bean.Contato;
 import br.com.fisiovita.mail.MailUtil;
+import br.com.fisiovita.model.Contato;
+import br.com.fisiovita.repository.ContatoRepository;
 import br.com.fisiovita.util.Constantes;
 import br.com.fisiovita.validator.ContatoValidator;
 
@@ -24,6 +25,9 @@ public class ContactController {
 
 	@Autowired
 	private ContatoValidator contatoValidator;
+	
+	@Autowired
+	private ContatoRepository contatoRepository;
 
 	@RequestMapping(value = "/enviarEmail", method = RequestMethod.POST)
 	@ResponseBody
@@ -31,6 +35,7 @@ public class ContactController {
 		String mensagem = "";
 		contatoValidator.validate(contato, bindingResult);
 		if (bindingResult.getErrorCount() == 0) {
+			contatoRepository.put(contato);
 			MailUtil.getIntance().enviaEmailContato(contato, messageSource);
 			mensagem = messageSource.getMessage("mail.contato.email.enviado.sucesso", null, Constantes.LOCALE_PTBR);
 		} else {

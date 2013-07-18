@@ -1,19 +1,25 @@
-package br.com.fisiovita.bean;
+package br.com.fisiovita.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.Id;
+
 import org.springframework.validation.annotation.Validated;
 
+import com.googlecode.objectify.annotation.Entity;
+
 @Validated
+@Entity
 public class Contato implements Serializable {
 
 	private static final long serialVersionUID = 1;
 	
+	@Id
+	private String email;
 	private String nome;
 	private String interesse;
-	private String email;
 	private String telefone;
 	private String mensagem;
 	

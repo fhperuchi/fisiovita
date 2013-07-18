@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
-import br.com.fisiovita.bean.Contato;
+import br.com.fisiovita.model.Contato;
 import br.com.fisiovita.util.Constantes;
 
 @Component
