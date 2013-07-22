@@ -31,6 +31,12 @@
                   <p>Est&eacute;tica</p>
                 </div> -->
               </div>
+              <div class="item">
+                <img src="img/estetica4.jpg" class="img-rounded">
+                <!-- <div class="carousel-caption">
+                  <p>Est&eacute;tica</p>
+                </div> -->
+              </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
