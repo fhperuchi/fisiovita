@@ -242,7 +242,7 @@
             <plugin>
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
-                <version>1.8.1</version>
+                <version>${appengine.target.version}</version>
             </plugin>
         </plugins>
     </build>

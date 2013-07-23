@@ -7,35 +7,35 @@
       <div class="row roxo_claro">
         <div class="span5">
           <div id="myCarousel" class="carousel slide">
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
               <div class="item active">
                 <img src="img/pilates.jpg" class="img-rounded">
-                <!-- <div class="carousel-caption">
-                  <p>Pilates</p>
-                </div> -->
               </div>
               <div class="item">
                 <img src="img/pilates2.jpg" class="img-rounded">
-                <!-- <div class="carousel-caption">
-                  <p>Pilates</p>
-                </div> -->
               </div>
               <div class="item">
                 <img src="img/pilates3.jpg" class="img-rounded">
-                <!-- <div class="carousel-caption">
-                  <p>Pilates</p>
-                </div> -->
               </div>
               <div class="item">
                 <img src="img/pilates4.jpg" class="img-rounded">
-                <!-- <div class="carousel-caption">
-                  <p>Pilates</p>
-                </div> -->
+              </div>
+              <div class="item">
+                <img src="img/pilates5.jpg" class="img-rounded">
+              </div>
+              <div class="item">
+                <img src="img/pilates6.jpg" class="img-rounded">
+              </div>
+              <div class="item">
+                <img src="img/pilates7.jpg" class="img-rounded">
+              </div>
+              <div class="item">
+                <img src="img/pilates8.jpg" class="img-rounded">
               </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>

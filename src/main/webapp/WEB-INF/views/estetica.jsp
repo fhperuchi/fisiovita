@@ -7,11 +7,11 @@
       <div class="row roxo_claro">
         <div class="span5">
           <div id="myCarousel" class="carousel slide">
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
               <div class="item active">
                 <img src="img/estetica.jpg" class="img-rounded">
@@ -348,7 +348,7 @@
 			      </div>
 			    </div>
 			  </div>
-			  <div class="accordion-group">
+			  <!--<div class="accordion-group">
 			    <div class="accordion-heading">
 			      <a class="accordion-toggle roxo_titulo" data-toggle="collapse" data-parent="#accordion2" href="#collapse20">
 			        Flacidez
@@ -359,7 +359,7 @@
 			        <p>A flacidez &eacute; a falta de tonicidade da pele ou do m&uacute;sculo. Ela pode ser gerada por fatores gen&eacute;ticos, ambientais e de maus h&aacute;bitos, como falta de exerc&iacute;cios f&iacute;sicos.</p>
 			      </div>
 			    </div>
-			  </div>
+			  </div>-->
 			</div>
         </div>
 		

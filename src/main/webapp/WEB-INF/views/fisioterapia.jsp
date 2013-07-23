@@ -7,11 +7,11 @@
       <div class="row roxo_claro">
         <div class="span5">
           <div id="myCarousel" class="carousel slide">
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+            </ol> -->
             <div class="carousel-inner">
               <div class="item active">
                 <img src="img/fisioterapia.jpg" class="img-rounded">
