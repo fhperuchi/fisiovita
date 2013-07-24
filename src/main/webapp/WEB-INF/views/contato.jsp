@@ -8,12 +8,13 @@
         <div class="span4">
 			<img src="img/contato.jpg" class="img-rounded">
         </div>
+        
         <div class="span6">
-<!--         	<address> -->
-<!-- 			  <h4 class="roxo">Endere&ccedil;o</h4> -->
-<!-- 			  Rua Jo&atilde;o Jacon, 168 - Jardim Santa Cec&iacute;lia - 13480-685<br> -->
-<!-- 			  Limeira / S&atilde;o Paulo -->
-<!-- 			</address> -->
+	  		
+	  		<!-- area de mensagens -->
+	  		<div class="alert" style="display: none;">
+	  		</div>
+
         	<h4 class="roxo">Entre em contato por e-mail</h4>
 			<form id="formContato" name="formContato" method="post" class="navbar-form pull-left" style="width: 700px">
 			  <p>
@@ -47,12 +48,18 @@
 <script type="text/javascript">
    $("#contato").addClass("active");
    
-   $("#telefone").mask("(99) 9999-9999");
+   $("#telefone").mask("(99) 9999-9999?9");
+      
+   $(".alert").click(function() {
+      $(".alert").hide();
+   });
    
    $("#btnEnviar").click(function() {
+	    $(".alert").hide();
 		$.post("/enviarEmail", $("#formContato").serialize()).done(
 			function(data) {
-				alert(data);
+				$(".alert").html(data);
+				$(".alert").show();
 			}
 		).fail(
 			function() { 

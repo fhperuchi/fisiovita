@@ -39,8 +39,13 @@ public class ContactController {
 			MailUtil.getIntance().enviaEmailContato(contato, messageSource);
 			mensagem = messageSource.getMessage("mail.contato.email.enviado.sucesso", null, Constantes.LOCALE_PTBR);
 		} else {
+			int i =1;
 			for (FieldError fieldError : bindingResult.getFieldErrors()) {
-				mensagem = mensagem + fieldError.getDefaultMessage() + "\n";
+				mensagem += fieldError.getDefaultMessage();
+				if (i < bindingResult.getErrorCount()) {
+					mensagem += "<br/>";
+				}
+				i++;
 			}
 		}
 		return mensagem;
