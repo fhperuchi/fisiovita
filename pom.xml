@@ -12,6 +12,9 @@
     <url>http://www.spaziofisiovita.com.br/</url>
     <description>Site da clinica Spazio Fisio Vita</description>
     <inceptionYear>2013</inceptionYear>
+    <contributors>
+        <contributor>fhperuchi@gmail.com</contributor>
+    </contributors>
 
     <scm>
         <url>https://github.com/fhperuchi/fisiovita.git</url>
