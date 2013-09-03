@@ -13,7 +13,10 @@
     <description>Site da clinica Spazio Fisio Vita</description>
     <inceptionYear>2013</inceptionYear>
     <contributors>
-        <contributor>fhperuchi@gmail.com</contributor>
+        <contributor>
+            <name>Fabio Henrique Peruchi</name>
+            <email>fhperuchi@gmail.com</email>
+        </contributor>
     </contributors>
 
     <scm>
