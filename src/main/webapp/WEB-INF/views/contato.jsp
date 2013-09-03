@@ -37,9 +37,9 @@
 			<br>
 			<h4 class="roxo">Entre em contato por telefone</h4>
 			<p><strong>Cl&iacute;nica: </strong>(19) 3452-3530 ou (19) 3713-1680</p>
-		  	<p><strong>Fisioterapia / Est&eacute;tica: </strong>Carina Balloni - (19) 9377-0493</p>
-			<p><strong>Pilates: </strong>Dayane Sardenha - (19) 9751-9107</p>
-		  	<p><strong>RPG: </strong>Renata Franco Ribeiro - (19) 9661-2738<p>
+		  	<p><strong>Fisioterapia / Est&eacute;tica: </strong>Carina Balloni - (19) 99377-0493</p>
+			<p><strong>Pilates: </strong>Dayane Sardenha - (19) 99751-9107</p>
+		  	<p><strong>RPG: </strong>Renata Franco Ribeiro - (19) 99661-2738<p>
         </div>
       </div>
 
