@@ -24,7 +24,8 @@
 			  	<option value="Est&eacute;tica;carinaballoni@terra.com.br">Est&eacute;tica</option>
 			  	<option value="Pilates;fhperuchi@ciandt.com,fhperuchi@gmail.com,daysardenha@bol.com.br">Pilates</option>
 			  	<option value="RPG;renatanogueron@yahoo.com.br">RPG</option>
-			  	<option value="Outro;daysardenha@bol.com.br,carinaballoni@terra.com.br,renatanogueron@yahoo.com.br,fhperuchi@gmail.com">Outro</option>
+			  	<option value="Nutricionista;rodolfonutri@hotmail.com">Nutricionista</option>
+			  	<option value="Outro;daysardenha@bol.com.br,carinaballoni@terra.com.br,renatanogueron@yahoo.com.br,fhperuchi@gmail.com,rodolfonutri@hotmail.com">Outro</option>
 			  </select>
 			  </p>
 			  <p><input id="nome" name="nome" type="text" required class="span4" placeholder="Nome completo"></p>
@@ -37,9 +38,10 @@
 			<br>
 			<h4 class="roxo">Entre em contato por telefone</h4>
 			<p><strong>Cl&iacute;nica: </strong>(19) 3452-3530 ou (19) 3713-1680</p>
-		  	<p><strong>Fisioterapia / Est&eacute;tica: </strong>Carina Balloni - (19) 99377-0493</p>
+		  	<p><strong>Fisioterapia / Est&eacute;tica: </strong>Carina Balloni - (19) 99266-8434</p>
 			<p><strong>Pilates: </strong>Dayane Sardenha - (19) 99751-9107</p>
 		  	<p><strong>RPG: </strong>Renata Franco Ribeiro - (19) 99661-2738<p>
+		  	<p><strong>Nutricionista: </strong>Rodolfo Scatolon - (19) 3039-1581<p>
         </div>
       </div>
 

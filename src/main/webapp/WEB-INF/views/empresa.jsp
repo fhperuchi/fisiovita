@@ -12,10 +12,19 @@
                 <img src="img/empresa.jpg" class="img-rounded">
               </div>
               <div class="item">
-                <img src="img/empresa.jpg" class="img-rounded">
+                <img src="img/empresa2.jpg" class="img-rounded">
               </div>
               <div class="item">
-                <img src="img/empresa.jpg" class="img-rounded">
+                <img src="img/empresa3.jpg" class="img-rounded">
+              </div>
+              <div class="item">
+                <img src="img/empresa4.jpg" class="img-rounded">
+              </div>
+              <div class="item">
+                <img src="img/empresa5.jpg" class="img-rounded">
+              </div>
+              <div class="item">
+                <img src="img/empresa6.jpg" class="img-rounded">
               </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
