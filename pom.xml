@@ -18,6 +18,18 @@
             <email>fhperuchi@gmail.com</email>
         </contributor>
     </contributors>
+	
+	<repositories>
+		<repository>
+		  <id>objectify-appengine</id>
+		  <url>http://objectify-appengine.googlecode.com/svn/maven</url>
+		</repository>
+		<!--<repository>
+		   <id>local-repository</id>
+		   <name>Local Repository</name>
+		   <url>file://${basedir}/lib</url>
+		</repository>-->
+	</repositories>
 
     <scm>
         <url>https://github.com/fhperuchi/fisiovita.git</url>
