@@ -20,6 +20,12 @@
                 </div> -->
               </div>
               <div class="item">
+                <img src="img/estetica1.jpg" class="img-rounded">
+                <!-- <div class="carousel-caption">
+                  <p>Est&eacute;tica</p>
+                </div> -->
+              </div>
+              <div class="item">
                 <img src="img/estetica2.jpg" class="img-rounded">
                 <!-- <div class="carousel-caption">
                   <p>Est&eacute;tica</p>
