@@ -52,7 +52,7 @@
 
 <p>Programa de Emagrecimento em Grupo DESPERTE-SE MAGRA 2014</p>
 
-<p>Visite nossa p&aacute;gina no Facebook: <a href="https://www.facebook.com/despertesemagralimeira" target="_blank">https://www.facebook.com/despertesemagralimeira</a></p>
+<p>Visite nossa <a href="https://www.facebook.com/despertesemagralimeira" target="_blank">p&aacute;gina no Facebook</a>.</p>
 
 Criadores e coordenadores:
 <ul>
