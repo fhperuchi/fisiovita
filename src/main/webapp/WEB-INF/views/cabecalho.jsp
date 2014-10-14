@@ -71,7 +71,7 @@
               <li id="empresa"><a href="/">Empresa</a></li>
               <li id="fisioterapia"><a href="/fisioterapia">Fisioterapia</a></li>
               <li id="estetica"><a href="/estetica">Est&eacute;tica</a></li>
-              <li id="pilates"><a href="/pilates">Pilates</a></li>
+              <!--<li id="pilates"><a href="/pilates">Pilates</a></li>-->
               <li id="rpg"><a href="/rpg">RPG</a></li>
 			  <li id="nutricionista"><a href="/nutricionista">Nutricionista</a></li>
               <li id="localizacao"><a href="/localizacao">Localiza&ccedil;&atilde;o</a></li>

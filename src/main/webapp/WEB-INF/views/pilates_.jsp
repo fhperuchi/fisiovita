@@ -25,18 +25,6 @@
               <div class="item">
                 <img src="img/pilates4.jpg" class="img-rounded">
               </div>
-              <!-- <div class="item">
-                <img src="img/pilates5.jpg" class="img-rounded">
-              </div>
-              <div class="item">
-                <img src="img/pilates6.jpg" class="img-rounded">
-              </div>
-              <div class="item">
-                <img src="img/pilates7.jpg" class="img-rounded">
-              </div>
-              <div class="item">
-                <img src="img/pilates8.jpg" class="img-rounded">
-              </div>-->
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
